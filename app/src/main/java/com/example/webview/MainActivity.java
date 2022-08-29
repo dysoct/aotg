@@ -16,6 +16,6 @@ public class MainActivity extends Activity {
     protected void onResume() {
         super.onResume();
         WebView webView = findViewById(R.id.main_webview);
-        webView.loadUrl("https://www.google.de/");
+        webView.loadUrl("https://astrogo.astro.com.my");
     }
 }
